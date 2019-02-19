@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imgDetail"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32dp"
+        android:id="@+id/tvDetailTitle"
+        android:layout_below="@id/imgDetail"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDetailplatform"
+        android:textSize="32dp"
+        android:layout_below="@id/tvDetailTitle"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32dp"
+        android:id="@+id/tvDetailtournament_date"
+        android:layout_below="@id/tvDetailplatform"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDetailprize_money"
+        android:textSize="32dp"
+        android:layout_below="@id/tvDetailtournament_date"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32dp"
+        android:id="@+id/tvDetailmax_participants"
+        android:layout_below="@id/tvDetailprize_money"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDetailparticipants"
+        android:textSize="32dp"
+        android:layout_below="@id/tvDetailmax_participants"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDetailtournament_venue"
+        android:textSize="32dp"
+        android:layout_below="@id/tvDetailparticipants"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvDetailtournament_venue"
+        android:text="BACK"
+        android:id="@+id/btnBack"/>
+</RelativeLayout>
